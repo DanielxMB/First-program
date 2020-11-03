@@ -1,0 +1,76 @@
+
+package holamundo;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author danielxmb
+ */
+public class HolaMundo {
+
+    /**
+     * @param args the command line arguments
+     */  
+    public static void main(String [] args) {
+       
+        /*
+       
+       Declaración de variables
+       
+       */
+       
+       int entero = 240499; // variable tipo entero
+       float decimal = 24.04f; // variable tipo decimal (numero real)
+       double decimal2 = 24.0499; // variable tipo decimal con más rango de memoria
+       char caracter = 'x'; // variable tipo caracter
+       boolean decision = true; // variable tipo decisión (sólo true or false)
+       
+       //String mensaje = "Sahlo Folina"; // cadena de texto para imprimir mensajes
+       
+       final int cuenta = 418109041; //constante tipo entero
+       final double direccion = 255.255; // constante tipo decimal
+       final float adress = 192.180f; //constante tipo decimal uno
+       
+       entero = 20; // puede cambiar el valor de la variable conforme avanza el programa
+        
+        System.out.println("Valor entero: "+entero);
+        System.out.println("Valor decimal: "+decimal);
+        System.out.println("Valor decimal2: "+decimal2);
+        System.out.println("Valor caracter: "+caracter);
+        System.out.println("Decision: "+decision);
+        //System.out.println("Mensaje: "+mensaje);
+        System.out.println("Cuenta: "+cuenta);
+        System.out.println("Dirección: "+direccion);
+        System.out.println("Adress: "+adress);
+        
+        /*
+        
+        Entrada y salida de datos
+        
+        */
+        
+        Scanner entrada = new Scanner (System.in);
+        int edad;
+        double peso;
+        String cancion;
+        char album;
+        
+        System.out.print("Digitaliza la letra de la canción: ");
+        cancion = entrada.nextLine();
+        System.out.print("Digitaliza tu edad: ");
+        edad = entrada.nextInt();
+        System.out.print("Digitaliza tu peso: ");
+        peso = entrada.nextDouble();
+        System.out.print("Letra del album: ");
+        album = entrada.next().charAt(0);
+        
+        
+        System.out.println("Tu edad es: "+edad);
+        System.out.println("Tu peso es: "+peso);
+        System.out.println("Letra de canción: "+cancion);
+        System.out.println("Álbum: "+album);
+      
+    }
+}
+ 
