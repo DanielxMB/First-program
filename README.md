@@ -1,2 +1,2 @@
-# First-program
-This is my first program in Java (NeatBeans)
+# My beginning in programming
+This are my first programs in Java (NeatBeans)
